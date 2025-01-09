@@ -7,17 +7,23 @@
 
 **Использование**
 
-1) Скачать проект
-	``` git clone https://github.com/m1skipper/reactAuthorizeForm.git ```
-2) Собрать и запустить проект клиента
-Из папки проекта homework-authorize-client запустить:
-   	``` yarn install '''
-    	``` yarn start '''
-3) Собрать и запустить сервер
-Из папки проекта homework-authorize-server запустить:
-	``` dotnet build ```
-	``` dotnet run ```
-4) В открывшемся браузере в окне логина ввести любой логин и пароль. Нажать кнопку "Войти". Должно появится сообщение "Добро пожаловать, {Логин}".
+1) Скачать проект  
+	```
+	git clone https://github.com/m1skipper/reactAuthorizeForm.git
+ 	```
+3) Собрать и запустить проект клиента  
+Из папки проекта homework-authorize-client запустить:  
+	```
+	yarn install
+	yarn start
+ 	```
+4) Собрать и запустить сервер  
+Из папки проекта homework-authorize-server запустить:  
+	```
+ 	dotnet build
+	dotnet run
+ 	```
+5) В открывшемся браузере в окне логина ввести любой логин и пароль. Нажать кнопку "Войти". Должно появится сообщение "Добро пожаловать, {Логин}".
 
 **Реализация**
 
